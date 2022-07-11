@@ -38,4 +38,5 @@ After Setup You need to do first header and logo setup
 - Appearance/Widgets/Footer Widgets 3
 
 4.Customize Copyright Text
+
 5.Fully Responsive
