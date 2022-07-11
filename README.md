@@ -27,15 +27,15 @@ After Setup You need to do first header and logo setup
 
 - Appearance/customize/Site Identity
 
-  2.Customize Footer Logo
+2.Customize Footer Logo
 
 - Appearance/Widgets/Footer Logo
 
-  3.Customize Footer (3)Widgets
+3.Customize Footer (3)Widgets
 
 - Appearance/Widgets/Footer Widgets 1
 - Appearance/Widgets/Footer Widgets 2
 - Appearance/Widgets/Footer Widgets 3
 
-  4.Customize Copyright Text
-  5.Fully Responsive
+4.Customize Copyright Text
+5.Fully Responsive
