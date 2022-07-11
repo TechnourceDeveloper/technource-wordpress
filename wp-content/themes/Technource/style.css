@@ -1,0 +1,414 @@
+/*
+Theme Name: Technource
+Version: 1.0
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Author: Technource
+Author URI: https://www.technource.com/
+Theme URI: https://www.technource.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.navbar-section {
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-collapse {
+  margin-top: 17px;
+  justify-content: end;
+}
+.header-logo img {
+  width: 14rem;
+  height: auto;
+}
+#menu-header {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu-header li {
+  border-bottom-width: 0;
+  display: inline-block;
+  margin-left: 2rem;
+}
+#menu-header a {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+  display: block;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-menu {
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+  background-color: #1f2937;
+}
+.footer-logo {
+  width: 100%;
+  height: 100%;
+}
+.copyright-section {
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 1rem;
+  text-align: center;
+  list-style: none;
+}
+.copyright-section a {
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+  text-decoration: none;
+}
+.copyright-section p {
+  margin: 0;
+}
+.widgettitle {
+  color: #d1d5db;
+  font-size: 18px;
+}
+
+.footer-menu .menu {
+  padding: 0;
+}
+.footer-menu .menu li {
+  color: #9ca3af;
+  list-style: none;
+  padding-top: 12px;
+}
+.footer-menu .menu li a {
+  color: #9ca3af;
+  text-decoration: none;
+}
+.hero-section {
+  background-color: #374151;
+  color: white;
+}
+img.hero-image {
+  width: 100%;
+}
+.excerpt p {
+  line-height: 2;
+  font-size: 18px;
+  margin-top: 1rem;
+}
+h2.title {
+  font-size: 36px;
+}
+a.btn-brand {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  background-color: #f46a35;
+  padding: 14px;
+  border-radius: 8px;
+}
+div#partners {
+  display: flex;
+  padding: 1.5rem;
+}
+.partner-logo img {
+  width: 75%;
+}
+ul.sub-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  background: #fff;
+  width: 100%;
+}
+
+ul.menu li.menu-item-has-children:hover > ul.sub-menu {
+  display: block;
+  padding: 0px;
+}
+.services ul.sub-menu li {
+  width: 100%;
+}
+.services ul.sub-menu {
+  left: auto;
+  width: auto;
+}
+.social-media a {
+  text-decoration: none;
+}
+.footer-mail {
+  margin-top: 1.5rem;
+}
+.footer-mail a {
+  text-decoration: none;
+  color: #9ca3af;
+}
+
+.w3-content.w3-display-container {
+  width: 100%;
+  height: 100%;
+  padding: 35px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 6px 13px 1px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 2px 6px 13px 1px rgba(0, 0, 0, 0.18);
+  box-shadow: 2px 6px 13px 1px rgba(0, 0, 0, 0.18);
+  margin-top: -75px;
+  z-index: 1;
+  background: #fff;
+}
+.sub-menu li {
+  z-index: 9;
+  padding: 1rem 1.9rem;
+  margin-left: -18px !important;
+  width: 33.3%;
+}
+.mySlides p {
+  color: #6b7280;
+  font-size: 18px;
+  line-height: 28px;
+}
+span.testimonial-name {
+  color: #4b5563;
+  font-size: 18px;
+}
+span.testimonial-position p {
+  color: #f46a35;
+  font-size: 16px;
+}
+.slider-navigation {
+  text-align: right;
+}
+.mySlides {
+  height: 200px;
+}
+
+.accordion-button[aria-expanded="true"]:after {
+  content: "\2212";
+  background-image: none;
+  position: absolute;
+  right: -20px;
+  font-size: 25px;
+  top: 28px;
+}
+.accordion-button[aria-expanded="false"]:after {
+  content: "\002b";
+  background-image: none;
+  position: absolute;
+  right: -20px;
+  font-size: 25px;
+  top: 10px;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.mobile-footer {
+  display: none;
+}
+.mega-menu ul {
+  column-count: 2;
+}
+.partner-logo img:hover {
+  width: 90%;
+}
+a.btn-brand:hover {
+  background-color: #ff4800;
+}
+.social-media i {
+  color: #fff;
+  font-size: 30px;
+  padding: 0px 10px;
+  margin-top: 18px;
+}
+.mobile-menu {
+  display: none;
+}
+.services ul li {
+  width: auto !important;
+  display: grid !important;
+}
+.menu-item-description {
+  float: left;
+  margin-top: 12px;
+  font-weight: 400;
+}
+.mega-menu-column ul {
+  padding-top: 16px !important;
+}
+.footer-menu a:hover {
+  color: #f46a35 !important;
+}
+@media only screen and (max-width: 991px) {
+  #menu-header li {
+    border-bottom-width: 0;
+    display: block;
+    margin-left: 0rem;
+    padding: 10px;
+  }
+  .footer-menu {
+    display: none;
+  }
+  .custom-menu-class {
+    margin-top: 18px;
+  }
+  ul.menu li.menu-item-has-children:hover > ul.sub-menu {
+    position: relative;
+  }
+  .mySlides {
+    height: auto;
+  }
+  .hero-section {
+    padding-top: 4.5rem;
+  }
+  .footer-mobile li {
+    list-style: none;
+  }
+  .footer-mobile .widgettitle {
+    display: none;
+  }
+  .footer-mobile .menu {
+    padding: 0px !important;
+  }
+  .footer-mobile .menu {
+    padding: 0px !important;
+  }
+  .footer-mobile li {
+    line-height: 40px;
+  }
+  .footer-mobile li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #374151;
+  }
+  .footer-mobile {
+    background-color: #1f2937;
+  }
+  .accordion-item {
+    background-color: #1f2937;
+    border: none;
+  }
+  button.accordion-button.collapsed {
+    color: white;
+    background-color: #1f2937;
+  }
+  .accordion-body li a {
+    color: white;
+  }
+  .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #1f2937;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+  }
+  .footer-mobile img {
+    padding: 2rem;
+  }
+  .mobile-footer {
+    display: block;
+  }
+  .footer-mobile img {
+    padding: 1rem;
+  }
+  .footer-mobile {
+    width: 100%;
+    margin: 0;
+  }
+  .mobile-socail-section.text-center {
+    padding: 20px;
+  }
+  .mobile-socail-section .widgettitle {
+    display: block;
+  }
+  .desktop-header {
+    display: none;
+  }
+  .new-header {
+    padding: 10px 15px !important;
+  }
+  .navbar_mobile_area {
+    background-color: white;
+  }
+  .navbar_mobile {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 12px 0;
+  }
+  .navbar_mobile {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 12px 0;
+  }
+  .navbar_mobile .menu {
+    list-style: none;
+    padding: 15px;
+    margin: 0 10px;
+    background: #fff;
+    position: relative;
+    border-radius: 12px;
+    height: 90vh;
+  }
+  .dashboard_openNav {
+    font-size: 31px;
+    cursor: pointer;
+    right: 15px;
+    top: 7px;
+  }
+  .navbar_mobile .closebtn {
+    top: 25px;
+    right: 40px;
+    font-size: 22px;
+    color: #8d8d8d;
+    z-index: 9;
+  }
+  .mega-menu-column .sub-menu li {
+    width: 100% !important;
+  }
+  .mega-menu-column .sub-menu {
+    column-count: 2 !important;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .navbar_mobile_area img {
+    width: auto;
+    height: 36px;
+  }
+  #menu-mobile-menu {
+    line-height: 46px;
+    bottom: 15px;
+  }
+  #menu-mobile-menu li a {
+    text-decoration: none;
+    color: #8d8d8d;
+    font-weight: 500;
+    font-size: 19px;
+  }
+  .industries-mobile .sub-menu {
+    display: block;
+    position: relative;
+    padding-left: 0;
+  }
+  .industries-mobile .sub-menu li {
+    width: 50%;
+    display: inline;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar_mobile_area img {
+    width: 50%;
+    height: 36px;
+  }
+}
