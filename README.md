@@ -9,12 +9,15 @@
 WordPress:
 
 user: admin
+
 password: admin
 
 MySQL:
 
 db name: technource
+
 user: root
+
 password: root
 
 **Note:-**
